@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/banner.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/css.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="about.html"><img src="/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="html.html">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">course</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1> Contact Us </h1>
+
+    </section>
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13966.640980506922!2d75.70225625!3d28.9381353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1656147357201!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+</section>
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5>XYZ, ABC building</h5>
+                    <p>bangolore, karntacka IN</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>+91 9996454579</h5>
+                    <p>monday to saturday , 10a.m. to 12:00pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+
+                <span>
+                    <h5>info@ easy tutorialsspro.com</h5>
+                    <p>email us of your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="enter your name" required >
+                <input type="text" name="email" placeholder="enter email address" required >
+                <input type="text" name="subject" placeholder="enter your subject" required >
+                <textarea name="message" placeholder="message " rows="5"></textarea><br><br>
+                <button type="submit" class="hero-btn red-btn">send message</button>
+
+
+            </form>
+        </div>
+    </div>
+
+</section>
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa iste quas, nam beatae quidem velit explicabo
+            tenetur quia labore ratione, temporibus laborum ad voluptatibus necessitatibus nisi veritatis recusandae
+            adipisci. Id.</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="  fa fa-brands fa-linkedin"></i>
+        </div><hr>
+        <p>made with <i class="fa fa-heart"></i> easy tutorials</p>
+    </section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>

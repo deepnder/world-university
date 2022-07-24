@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="/banner.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/css.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="about.html"><img src="/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="html.html">home</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">course</a></li>
+                    <li><a href="">blog</a></li>
+                    <li><a href="html.html">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>our courses </h1>
+    </section>
+
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, vitae?</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab aspernatur quasi quaerat autem
+                    reprehenderit, at atque optio exborum unde iis.</p>
+            </div>
+            <div class="course-col">
+                <h3>degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab aspernatur quasi quaerat autem
+                    reprehenderit, at atque optio exercblanditiis.</p>
+            </div>
+            <div class="course-col">
+                <h3>post graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicprehenderit, at atque optio exercitationem voluptatum
+                    reiciendis laborum unde incidblanditiis.</p>
+            </div>
+        </div>
+    </section>
+    <section class="facilities">
+        <h1>our facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, vitae!</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="/library.png" alt="">
+                <h3>world class library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum magnam suscipit dolore nam
+                    corrupti.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/basketball.png" alt="">
+                <h3>largest playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum magnam suscipit dolore nam
+                    corrupti.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="/cafeteria.png" alt="">
+                <h3>tasty and healthy food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsum magnam suscipit dolore nam
+                    corrupti.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>about us</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa iste quas, nam beatae quidem velit explicabo
+            tenetur quia labore ratione, temporibus laborum ad voluptatibus necessitatibus nisi veritatis recusandae
+            adipisci. Id.</p>
+        <div class="icons">
+            <i class="fa fa-brands fa-facebook"></i>
+            <i class="fa fa-brands fa-twitter"></i>
+            <i class="fa fa-brands fa-instagram"></i>
+            <i class="  fa fa-brands fa-linkedin"></i>
+        </div><hr>
+        <p>made with <i class="fa fa-heart"></i> easy tutorials</p>
+    </section>
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+
+</html>
